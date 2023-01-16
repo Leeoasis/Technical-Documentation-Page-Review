@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+}
+.nav-link {
+color: white;
+}
+code {
+   
+    color: yellow;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: white;
+      color: black;
+    }
+    h1 {
+        color: black;
+    }
+    .nav-link {
+    color: blue;
+    }
+    code {
+       
+        color: blue;
+    }
+  }
